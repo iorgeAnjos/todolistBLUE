@@ -32,12 +32,12 @@ export default function Home() {
 
   return (
     
-    <Container maxWidth="xs" style={{ marginTop: "1em" }}>
+    <Container maxWidth="xs" className="container">
       <h1>Qual o plano para hoje?</h1>
       <Form addTodo={addTodo} />
       <List sx={{ marginTop: "1em" }}>
         {todos.map((todo) => (
-          <div key={todo.id} style={{ marginTop: "1em" }}>
+          <div key={todo.id} className="key">
             <TodoItem editTodo={editTodo} todo={todo} deleteTodo={deleteTodo} />
           </div>
         ))}

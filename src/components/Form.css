@@ -1,0 +1,7 @@
+.paper{
+    padding: 1em;
+}
+#outlined-basic{
+    display: flex;
+    justify-content: center;
+}
