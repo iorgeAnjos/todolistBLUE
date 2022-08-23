@@ -18,6 +18,7 @@ export default function Form({ addTodo }) {
       <div>
         <TextField
           id="outlined-basic"
+          className="outlined-basic"
           label="Tarefa"
           variant="outlined"
           onChange={(e) => setText(e.target.value)}
